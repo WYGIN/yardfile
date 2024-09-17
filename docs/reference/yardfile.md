@@ -42,10 +42,10 @@ Yardfile is a configuration file that Yardfile frontend uses to build docker ima
 4. each **dependency** table can have an array of **depends.on** table
 5. there can be nested **depends.on** tables in a **depends.on** table
 6. each yardfile can have multiple **dependency** tables
-    - *ref* must refer to a remote *yardpack*
-    - *optional* makes the yardpack optional to participate.
-      If any build errors are thrown, the yardpack doesn't participate in build process
+    - *ref* must refer to a *buildpack*
+    - *optional* makes the buildpack optional to participate.
+      If any build errors are thrown, the buildpack doesn't participate in build process
     - *features.include* includes a list of features that should participate in build process
     - *features.require* marks *optional* *features* to *required*
        - *features.require* features must be included in *features.include* in order to participate
-7. **metadata** is optional metadata included in yardpack image's *Result*
+7. **metadata** is optional metadata included in buildpack image's *Result*
