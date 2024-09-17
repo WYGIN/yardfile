@@ -1,5 +1,5 @@
 # Dexfile Reference
-each *yardpack* project can have multiple *Dexfile*s. these dexfiles follow offical Dockerfile syntax. but Yard parser can process these dexfiles as an Object Oriented Dockerfile. Dexfile stands for Dockerfile extendable file.
+each *buildpack* project can have multiple *Dexfile*s. these dexfiles follow offical Dockerfile syntax. but Yard parser can process these dexfiles as an Object Oriented Dockerfile. Dexfile stands for Dockerfile extendable file.
 
 Every Dexfile must and should have one run-image stage. example: a `FROM` instruction without `AS`
 
