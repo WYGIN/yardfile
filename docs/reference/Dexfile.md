@@ -4,7 +4,7 @@ each *buildpack* project can have multiple *Dexfile*s. these dexfiles follow off
 Every Dexfile must and should have one run-image stage. example: a `FROM` instruction without `AS`
 
 ```Dockerfile
-# syntax=ctryard/yardfile:1
+# syntax=ctryard/dexfile:1
 
 IMPORT FROM paketobuildpacks/node-engine AS node-engine
 
